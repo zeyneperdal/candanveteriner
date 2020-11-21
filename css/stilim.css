@@ -391,7 +391,7 @@ input[type="reset"] {
     -webkit-appearance: button;
 }
 .w-form {
-    margin: 0 0 15px;
+    margin: 0 0 0px;
 }
 .w-form-done {
     display: none;
@@ -4523,12 +4523,12 @@ p {
 a {
     -webkit-transition: color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    color: #00a36c;
+    color: red;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #fb8c23;
+    color: crimson;
 }
 
 ul {
@@ -4696,7 +4696,7 @@ figcaption {
 }
 
 .nav-link.w--current {
-    color: #00a36c;
+    color: crimson;
 }
 
 .dropdown-text {
@@ -4729,7 +4729,7 @@ figcaption {
 }
 
 .dropdown-link.w--current {
-    color: #00a36c;
+    color: crimson;
 }
 
 .dropdown-list {
@@ -4762,7 +4762,7 @@ figcaption {
 }
 
 .button-nav:hover {
-    background-color: #00a36c;
+    background-color: crimson;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -4809,8 +4809,8 @@ figcaption {
 
 .section-hero.green {
     background-color: transparent;
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(#00a36c), to(#00a36c));
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, #00a36c, #00a36c);
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(red), to(red));
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, red, red);
     background-position: 50% 50%, 0px 0px;
     background-size: auto, auto;
 }
@@ -4927,12 +4927,13 @@ figcaption {
 }
 
 .button-large.white:hover {
-    background-color: #00a36c;
+    background-color: crimson;
     color: #fff;
+
 }
 
 .button-large.green {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .button-large.green:hover {
@@ -4944,7 +4945,7 @@ figcaption {
 }
 
 .button-large.blue:hover {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .content {
@@ -5263,7 +5264,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #00a36c;
+    background-color: crimson;
     background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png");
     background-position: 50% 50%;
     background-size: auto;
@@ -5290,7 +5291,7 @@ figcaption {
     padding-right: 5px;
     padding-left: 5px;
     font-family: "Homemade Apple", sans-serif;
-    color: #00a36c;
+    color: crimson;
     font-size: 18px;
     line-height: 1.3em;
 }
@@ -5343,12 +5344,12 @@ figcaption {
 }
 
 .button.white:hover {
-    background-color: #00a36c;
+    background-color: crimson;
     color: #fff;
 }
 
 .button.green {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .button.green:hover {
@@ -5360,7 +5361,7 @@ figcaption {
 }
 
 .button.blue:hover {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .grid-2-columns {
@@ -5465,6 +5466,13 @@ figcaption {
 }
 
 .image-food-blob {
+    position: absolute;
+    z-index: 30;
+    width: 72%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.image-hizmetler {
     position: absolute;
     z-index: 30;
     width: 72%;
@@ -5718,8 +5726,8 @@ figcaption {
     -ms-grid-rows: auto;
     grid-template-rows: auto;
     border-radius: 10px;
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(#fb8c23), to(#fb8c23));
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, #fb8c23, #fb8c23);
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(crimson), to(crimson));
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, crimson, crimson);
     background-position: 50% 50%, 0px 0px;
     background-size: auto, auto;
 }
@@ -5768,12 +5776,12 @@ figcaption {
 }
 
 .button-small.white:hover {
-    background-color: #00a36c;
+    background-color: crimson;
     color: #fff;
 }
 
 .button-small.green {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .button-small.green:hover {
@@ -5785,7 +5793,7 @@ figcaption {
 }
 
 .button-small.blue:hover {
-    background-color: #00a36c;
+    background-color: crimson;
 }
 
 .text-banner {
@@ -6223,7 +6231,7 @@ figcaption {
 }
 
 .cart-quantity {
-    background-color: #00a36c;
+    background-color: crimson;
     color: #fff;
 }
 
@@ -6577,7 +6585,7 @@ figcaption {
 }
 
 .add-to-cart-button-small:hover {
-    background-color: #00a36c;
+    background-color: crimson;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -6729,7 +6737,7 @@ figcaption {
 .checkout-button {
     padding: 20px 37px;
     border-radius: 50px;
-    background-color: #00a36c;
+    background-color: crimson;
     -webkit-transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -6821,8 +6829,8 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(#00a36c), to(#00a36c));
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, #00a36c, #00a36c);
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(crimson), to(crimson));
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, crimson, crimson);
     background-position: 50% 50%, 0px 0px;
     background-size: auto, auto;
 }
@@ -7004,8 +7012,8 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(#00a36c), to(#00a36c));
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, #00a36c, #00a36c);
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), -webkit-gradient(linear, left top, left bottom, from(crimson), to(crimson));
+    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png"), linear-gradient(180deg, crimson, crimson);
     background-position: 50% 50%, 0px 0px;
     background-size: auto, auto;
     text-align: center;
@@ -7106,7 +7114,7 @@ figcaption {
     margin-left: 8px;
     padding: 20px 37px;
     border-radius: 50px;
-    background-color: #00a36c;
+    background-color: crimson;
     -webkit-transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -7443,7 +7451,7 @@ figcaption {
 }
 
 .text-required {
-    color: #00a36c;
+    color: crimson;
     font-size: 18px;
     font-weight: 500;
 }
@@ -7955,7 +7963,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: #f4f2f0;
-    background-image: url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f949819f5bd1b4563d9d3fd_contact.jpg");
+    background-image: url("../images/p3.jpeg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8263,7 +8271,7 @@ figcaption {
     padding-left: 12px;
     border-radius: 8px;
     background-color: rgba(0, 163, 108, 0.1);
-    color: #00a36c;
+    color: crimson;
     font-size: 14px;
     font-weight: 500;
 }
@@ -8451,7 +8459,7 @@ figcaption {
 }
 
 .style-color.green {
-    background-color: #00a36c;
+    background-color: crimson;
     color: #fff;
 }
 
@@ -8596,8 +8604,8 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     background-color: #e8e3df;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 27, 26, 0.35)), to(rgba(31, 27, 26, 0.35))), url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f936b43cc92031d09923931_how_it_works_page.jpg");
-    background-image: linear-gradient(180deg, rgba(31, 27, 26, 0.35), rgba(31, 27, 26, 0.35)), url("https://assets.website-files.com/5f8777f972356e39b046d89f/5f936b43cc92031d09923931_how_it_works_page.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 27, 26, 0.35)), to(rgba(31, 27, 26, 0.35))), url("../images/bg2.jpg");
+    background-image: linear-gradient(180deg, rgba(31, 27, 26, 0.35), rgba(31, 27, 26, 0.35)), url("../images/bg2.jpg");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
@@ -8874,6 +8882,9 @@ figcaption {
     }
 
     .image-food-blob {
+        width: 85%;
+    }
+    .image-hizmetler {
         width: 85%;
     }
 
@@ -9161,6 +9172,9 @@ figcaption {
     }
 
     .image-food-blob {
+        width: 70%;
+    }
+    .image-hizmetler {
         width: 70%;
     }
 

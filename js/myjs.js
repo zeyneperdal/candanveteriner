@@ -38120,7 +38120,7 @@ Webflow.require("ix2").init({
                                 delay: 0,
                                 easing: "",
                                 duration: 200000,
-                                target: { useEventTarget: "CHILDREN", selector: ".image-food-blob", selectorGuids: ["01847e6d-ebec-6c11-bd1f-c62b70a47ca7"] },
+                                target: { useEventTarget: "CHILDREN", selector: ".image-food-bdlob", selectorGuids: ["01847e6d-ebec-6c11-bd1f-c62b70a47ca7"] },
                                 zValue: -800,
                                 xUnit: "DEG",
                                 yUnit: "DEG",
