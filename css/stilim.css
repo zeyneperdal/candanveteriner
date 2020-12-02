@@ -5044,8 +5044,8 @@ figcaption {
 
 .image-food-2 {
     position: absolute;
-    top: -175px;
-    right: -574px;
+    top: -165px;
+    right: -475px;
     z-index: 10;
     width: 500px;
     height: 500px;
@@ -5061,7 +5061,7 @@ figcaption {
 .image-food-3 {
     position: absolute;
     left: -268px;
-    top: -202px;
+    top: -175px;
     z-index: 10;
     width: 300px;
     height: 300px;
@@ -8790,14 +8790,14 @@ figcaption {
     }
 
     .image-food-1 {
-        left: -282px;
-        bottom: -271px;
+        left: -252px;
+        bottom: -231px;
         width: 400px;
         height: 400px;
     }
 
     .image-food-1.single-page {
-        left: -266px;
+        left: -276px;
         bottom: -300px;
         width: 350px;
         height: 350px;
@@ -8819,7 +8819,7 @@ figcaption {
 
     .image-food-2 {
         top: -219px;
-        right: -348px;
+        right: -308px;
         width: 400px;
         height: 400px;
     }
@@ -8832,7 +8832,8 @@ figcaption {
     }
 
     .image-food-3 {
-        left: -190px;
+        top:-200px;
+        left: -150px;
         width: 250px;
         height: 250px;
     }
@@ -9087,12 +9088,12 @@ figcaption {
     }
 
     .image-food-1 {
-        left: -250px;
-        bottom: -297px;
+        left: -200px;
+        bottom: -237px;
     }
 
     .image-food-1.single-page {
-        left: -150px;
+        left: 150px;
         bottom: -283px;
         width: 300px;
         height: 300px;
@@ -9106,8 +9107,8 @@ figcaption {
     }
 
     .image-food-2 {
-        top: -244px;
-        right: -316px;
+        top: -200px;
+        right: -256px;
     }
 
     .image-food-2.single-page {
@@ -9467,8 +9468,8 @@ figcaption {
     }
 
     .image-food-1 {
-        left: -161px;
-        bottom: -263px;
+        left: 0px;
+        bottom: 963px;
         width: 300px;
         height: 300px;
     }
